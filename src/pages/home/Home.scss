@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.home-container{
+    border: 1px solid black;
+    background: linear-gradient(to right,rgb(221, 219, 176),rgb(251, 122, 122));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .chat-container{
+        width: 65%;
+        height: 80%;
+        background-color: aqua;
+        border: 2px solid white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px white;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .chat-Container{
+            flex: 2;
+            border-left: 1px solid black;
+            height: 100%;
+            background-color: rgb(249, 144, 165);
+        }
+        .sidebar-Container{
+            flex:1;
+            height: 100%;
+            background-color: rgb(240, 164, 249);
+        }
+    }
+}
