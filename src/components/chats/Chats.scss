@@ -1,0 +1,25 @@
+.chat-Container {
+  position: relative;
+  .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 91, 121);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 0px 8px rgb(0, 0, 0);
+    position: relative;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .all-massages{
+    overflow: scroll;
+    height: 85%;
+    // background-color: aqua;
+  }
+}
