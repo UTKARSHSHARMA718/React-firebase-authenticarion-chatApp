@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
 import './Home.scss';
 import Chats from '../../components/chats/Chats';
 
-type Props = {}
 
-const Home = (props: Props) => {
+const Home = () => {
+
+
+   
     return (
         <>
             <div className='home-container'>

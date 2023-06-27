@@ -4,6 +4,8 @@ nav {
   align-items: center;
   padding: 15px;
   background-color: rgb(212, 95, 248);
+  position: sticky;
+  top:0px;
   .control-panel {
     display: flex;
     justify-content: space-between;

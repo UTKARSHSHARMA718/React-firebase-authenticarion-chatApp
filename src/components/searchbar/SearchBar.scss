@@ -6,12 +6,18 @@
 .search-container{
     background-color:  rgb(240, 164, 249);
     width: 100%;
-    height: 50px;
     color: black;
+    position: sticky;
+    top: 80px;
     input{
         width: 100%;
-        height: 100%;
+        height: 50px;
         background: transparent;
         border: 0;
     }
+    .userchats{
+        background-color: rgba(248, 69, 212, 0.556);
+        
+    }
+    border-bottom:2px solid black ;
 }
