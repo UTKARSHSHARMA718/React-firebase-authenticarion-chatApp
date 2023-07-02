@@ -21,7 +21,6 @@ const Chats = (props) => {
         unsub();
       }
     }
-
     currentUser.uid && getChats();
   }, [currentUser.uid]);
 
